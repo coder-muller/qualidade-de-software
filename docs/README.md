@@ -1,0 +1,3 @@
+# Documentacao Complementar
+
+Esta pasta pode armazenar atividades de entrega, observacoes adicionais, checklists, documentos adicionais...
