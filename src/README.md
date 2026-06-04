@@ -1,5 +1,7 @@
 # Codigo-Fonte
 
-Esta pasta fica reservada para codigo-fonte e automacoes, caso a disciplina passe a exigir implementacao ou testes automatizados.
+Modulos de regras de negocio do Local Eats usados nos testes unitarios (PBL 6):
 
-No estado atual do projeto, o foco esta nas analises, nos artefatos e no planejamento de qualidade.
+- `pedido.py` - calculo do total do pedido
+- `desconto.py` - aplicacao de desconto percentual
+- `entrega.py` - calculo da taxa de entrega
