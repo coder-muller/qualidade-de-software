@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/guilherme/code/senac/qualidade-de-software/.venv/bin/python3.14
+cachedir: .pytest_cache
+rootdir: /Users/guilherme/code/senac/qualidade-de-software
+configfile: pytest.ini
+plugins: base-url-2.1.0, bdd-8.1.0, playwright-0.8.0
+collecting ... collected 3 items
+
+tests/e2e/test_busca_restaurantes.py::test_busca_por_termo_retorna_restaurantes[chromium] PASSED [ 33%]
+tests/e2e/test_busca_restaurantes.py::test_filtro_por_culinaria_italiana[chromium] PASSED [ 66%]
+tests/e2e/test_login.py::test_login_com_credenciais_validas[chromium] PASSED [100%]
+
+============================== 3 passed in 6.35s ===============================
