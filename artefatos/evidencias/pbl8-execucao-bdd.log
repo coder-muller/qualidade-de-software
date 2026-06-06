@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/guilherme/code/senac/qualidade-de-software/.venv/bin/python3.14
+cachedir: .pytest_cache
+rootdir: /Users/guilherme/code/senac/qualidade-de-software
+configfile: pytest.ini
+plugins: base-url-2.1.0, bdd-8.1.0, playwright-0.8.0
+collecting ... collected 4 items
+
+tests/bdd/test_historico_pedidos.py::test_visualizar_pedidos_realizados PASSED [ 25%]
+tests/bdd/test_historico_pedidos.py::test_validar_valor_total_do_pedido PASSED [ 50%]
+tests/bdd/test_perfil_usuario.py::test_acessar_pagina_de_perfil PASSED   [ 75%]
+tests/bdd/test_perfil_usuario.py::test_visualizar_secao_de_favoritos PASSED [100%]
+
+============================== 4 passed in 11.32s ==============================
