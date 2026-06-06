@@ -2,6 +2,8 @@ import os
 
 import pytest
 
+pytest_plugins = ["tests.bdd.steps_comuns"]
+
 
 @pytest.fixture(scope="session")
 def browser_context_args(browser_context_args):
